@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SprintbootWebApplication<sprintboot-web>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.daniel.curso.sprintboot.app.sprintboot_web.SprintbootWebApplication",
+            "projectName": "sprintboot-web",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-InyeccionDependenciaApplication<inyeccion-dependencia>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.daniel.curso.inyeccion.di.app.inyeccion_dependencia.InyeccionDependenciaApplication",
+            "projectName": "inyeccion-dependencia",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
